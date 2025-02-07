@@ -33,21 +33,24 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Installation and Setup
+## 💡Features
+### 1. QR Code Genetaror
+### 2. QR Code Scanner
+### 3. BarCode Scanner
+
+## 🛠️Installation and Setup
 
 ### 1. Clone Repository
 Clone the project using the following command:
 
 ```sh
-git clone https://github.com/username/repository.git
+git clone https://github.com/alii16/laravel-qrcode-generator.git
 ```
-
-Replace `username/repository` with the actual repository URL.
 
 ### 2. Navigate to Project Directory
 
 ```sh
-cd repository
+cd laravel-qrcode-generator
 ```
 
 ### 3. Install Dependencies
@@ -75,22 +78,12 @@ Edit the `.env` file and update the database settings:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=your_database_name
+DB_DATABASE=qrcode
 DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-Replace `your_database_name`, `DB_USERNAME`, and `DB_PASSWORD` with your actual database credentials.
-
-### 7. Run Migrations and Seed Database
-
-```sh
-php artisan migrate --seed
-```
-
-The `--seed` flag is optional but recommended if your application includes default data.
-
-### 8. Start the Development Server
+### 7. Start the Development Server
 
 ```sh
 php artisan serve
@@ -100,7 +93,7 @@ The application will be available at `http://127.0.0.1:8000/`.
 
 ---
 
-## QR Code Generator
+## 🚀QR Code Generator
 
 <p align="center">
     <img src="https://i.imgur.com/mxnqyfW.png" width="800" alt="Screenshot 1">
@@ -111,7 +104,7 @@ The application will be available at `http://127.0.0.1:8000/`.
     <img src="https://i.imgur.com/q9hRwLX.png" width="400" alt="Screenshot 2">
 </p>
 
-## QR Code Scanner
+## ✨QR Code Scanner
 
 <p align="center">
     <img src="https://i.imgur.com/JhekVEt.png" width="400" alt="Screenshot 1">
